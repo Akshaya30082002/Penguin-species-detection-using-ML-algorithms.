@@ -85,6 +85,6 @@ We trained and evaluated the following classification algorithms:
   
 * **`penguins_size.csv`**: The tabular dataset containing physical measurements of the penguins.
   
-* **`requirements.txt`**  : List of required Python packages to set up the environment.
+* **`requirement.txt`**  : List of required Python packages to set up the environment.
 
 
