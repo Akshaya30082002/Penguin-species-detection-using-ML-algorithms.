@@ -1,0 +1,15 @@
+# Data Manipulation
+numpy
+pandas
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+# Development Environment (Optional but recommended for Jupyter)
+notebook
