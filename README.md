@@ -75,3 +75,16 @@ We trained and evaluated the following classification algorithms:
 • XGBoost Classifier
 
 
+📂 Repository Structure
+
+* **`pickleapp/`**       : Contains the application script (e.g., Streamlit or Flask app) to run the user interface.
+ 
+* **`pickleproject/`**   : Holds core project files and saved serialized machine learning models (`.pkl` files).
+  
+* **`penguin.ipynb`**    : The primary Jupyter Notebook detailing data cleaning, feature engineering, and model training.
+  
+* **`penguins_size.csv`**: The tabular dataset containing physical measurements of the penguins.
+  
+* **`requirements.txt`**  : List of required Python packages to set up the environment.
+
+
