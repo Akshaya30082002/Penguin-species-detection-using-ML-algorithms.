@@ -37,3 +37,29 @@ Features Evaluated
 • Visualization: Matplotlib, Seaborn
 • Machine Learning: Scikit-Learn, XGBoost
 
+
+
+⚙️ Project Pipeline
+
+
+1. Data Cleaning & Preprocessing
+
+• Handled missing value (NaN) entries via imputation or removal.
+• Encoded categorical attributes (island and sex) using One-Hot Encoding / Label Encoding.
+• Normalized numerical variables using StandardScaler to optimize model convergence.
+
+2. Exploratory Data Analysis (EDA)
+
+• Plotted feature distributions and correlation matrices.
+• Identified flipper length and bill depth as the strongest indicators for differentiating species.
+
+3. Model Training & Evaluation
+
+We trained and evaluated the following classification algorithms:
+• Logistic Regression (Baseline model)
+• K-Nearest Neighbors (KNN)
+• Decision Tree Classifier
+• Random Forest Classifier
+• XGBoost Classifier
+
+
