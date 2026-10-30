@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Species Predictor</title>
+    
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>Penguin Species Predictor</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-row">
+            {{ form.as_p }}
+        </div>
+        <button type="submit" class="action-btn">Classify Species Sample</button>
+    </form>
+
+    {% if prediction_result %}
+        <div class="result-box">
+            <h3>Predicted Classification Output:</h3>
+            <p>
+                {% if prediction_result.0 %}{{ prediction_result.0 }}{% else %}{{ prediction_result }}{% endif %}
+            </p>
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
